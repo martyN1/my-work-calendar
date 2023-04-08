@@ -31,7 +31,7 @@
 
 <header>
 	<button class="homeButton" on:click={handleClickHome}>
-		<HomeIcon />
+		<img class="logo" src="logo.png" alt="logo" />
 	</button>
 	<div class="yearMonth">
 		<select
@@ -63,7 +63,7 @@
 <style>
 	header {
 		font-size: max(2.5vmin, 14px);
-		padding: 12px;
+		padding: 8px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -72,8 +72,8 @@
 	}
 
 	.homeButton {
-		width: max(2.8vmin, 16px);
-		height: max(2.8vmin, 16px);
+		width: max(5vmin, 36px);
+		height: max(5vmin, 36px);
 	}
 
 	.yearMonth {
