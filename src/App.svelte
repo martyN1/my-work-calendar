@@ -37,7 +37,7 @@
 <style>
 	main {
 		height: 100vh;
-		background-color: #fdf9f0;
+		background-color: var(--white);
 		display: flex;
 		flex-direction: column;
 	}

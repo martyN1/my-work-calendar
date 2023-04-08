@@ -57,7 +57,7 @@
 		font-weight: 400;
 		font-size: max(1.7vmin, 12px);
 		padding: 1vmin;
-		background-color: #d2cdc3;
+		background-color: var(--light-gray);
 	}
 
 	.dayInner {
@@ -65,7 +65,7 @@
 	}
 
 	.today {
-		border: 4px solid #4c4637;
+		border: 4px solid var(--black);
 	}
 
 	.workDay {
@@ -76,19 +76,19 @@
 	}
 
 	.weekend {
-		background-color: #aea99e;
+		background-color: var(--gray);
 	}
 
 	.work {
-		background-color: #00be9e;
+		background-color: var(--green);
 	}
 
 	.holiday {
-		background-color: #f4d530;
+		background-color: var(--yellow);
 	}
 
 	.public_holiday {
-		background-color: #bf5846;
+		background-color: var(--red);
 	}
 
 	.workedHours {

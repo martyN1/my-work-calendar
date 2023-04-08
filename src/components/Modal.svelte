@@ -192,13 +192,13 @@
 
 	.submitButton {
 		flex: 1;
-		border: 1px solid #4c4637;
+		border: 1px solid var(--black);
 	}
 
 	.removeButton {
 		width: 24px;
 		height: 24px;
-		color: #bf5846;
+		color: var(--red);
 	}
 
 	.workedHours {
